@@ -1,7 +1,5 @@
 pytest
-selene
 pypdf2
 openpyxl
-glob
-os
+
 

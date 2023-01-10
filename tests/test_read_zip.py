@@ -10,11 +10,9 @@ import os
 
 from openpyxl.reader.excel import load_workbook
 
-dir_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-path_zip = os.path.join(dir_path, 'hw_archive.zip')
-
-
 path_to_resources = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resources')
+path_zip = os.path.join(path_to_resources, 'hw_archive.zip')
+
 
 path_to_csv = os.path.join(path_to_resources, 'doc2.csv')
 path_to_pdf = os.path.join(path_to_resources, 'exmpl.pdf')
